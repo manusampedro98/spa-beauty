@@ -1,0 +1,12 @@
+{
+  "name": "spa-beauty",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./styles.css --content ./index.html",
+    "dev": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.19"
+  }
+}
